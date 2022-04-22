@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">YoutubeMusic</string>
+
+    <string-array name="list_music">
+        <item>Music1</item>
+        <item>Music2</item>
+        <item>Music3</item>
+        <item>Music4</item>
+        <item>Music5</item>
+        <item>Music6</item>
+        <item>Music7</item>
+        <item>Music8</item>
+        <item>Music9</item>
+        <item>Music10</item>
+    </string-array>
+    
+    <string-array name="durasi">
+        <item>Band ~ 5.30</item>
+        <item>Band ~ 4.30</item>
+        <item>Band ~ 3.30</item>
+        <item>Band ~ 5.00</item>
+        <item>Band ~ 4.00</item>
+        <item>Band ~ 3.00</item>
+        <item>Band ~ 2.00</item>
+        <item>Band ~ 2.30</item>
+        <item>Band ~ 3.00</item>
+        <item>Band ~ 3.30</item>
+    </string-array>
+
+    <string-array name="like">
+        <item>146</item>
+        <item>522</item>
+        <item>651</item>
+        <item>324</item>
+        <item>756</item>
+        <item>843</item>
+        <item>293</item>
+        <item>871</item>
+        <item>265</item>
+        <item>156</item>
+    </string-array>
+</resources>

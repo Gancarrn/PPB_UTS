@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <ImageView
+        android:id="@+id/musicIcon"
+        android:layout_width="338dp"
+        android:layout_height="345dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gambar1" />
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="judul lagu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/musicIcon" />
+
+    <TextView
+        android:id="@+id/penyanyi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="nama penyanyi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/judul" />
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/musicIcon"
+        app:srcCompat="@drawable/like" />
+
+    <ImageView
+        android:id="@+id/pause"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/penyanyi"
+        app:srcCompat="@android:drawable/ic_media_pause" />
+
+    <ImageView
+        android:id="@+id/previous"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/pause"
+        app:layout_constraintTop_toBottomOf="@+id/penyanyi"
+        app:srcCompat="@android:drawable/ic_media_previous" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintStart_toEndOf="@+id/pause"
+        app:layout_constraintTop_toBottomOf="@+id/penyanyi"
+        app:srcCompat="@android:drawable/ic_media_next" />
+</androidx.constraintlayout.widget.ConstraintLayout>
